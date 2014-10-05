@@ -1,0 +1,38 @@
+.centerdiv {
+  width: 50%;
+  height: 50%;
+/*  overflow: auto; */
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+.containerdiv {
+  position: relative;
+  height: 95vh;
+  width: 95vw;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  text-align: right;
+}
+
+p {
+  text-align: right;
+}
+
+a {
+  color: black;
+}
+
+#ftgc {
+  position: absolute;
+}

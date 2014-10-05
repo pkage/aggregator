@@ -1,0 +1,22 @@
+<head>
+  <title>aggregator</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  {{> reddit}}
+</body>
+
+<template name="reddit">
+<!--  <a href="{{posturl}}" target="_blank"> -->
+    <i>click anywhere to open the story</i><br/>
+    <i id="ftgc">Failed to get new content</i>
+    <div class="containerdiv">
+      <div class="centerdiv">
+        <h4 id="postauthor">Author</h4>
+        <h1 id="posttitle">Post Title</h1>
+        <h2 id="postdomain">Domain</h2><p id="posturl">Post URL</p>
+      </div>
+    </div>
+<!--  </a> -->
+</template>
